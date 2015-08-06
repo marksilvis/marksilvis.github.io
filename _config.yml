@@ -1,8 +1,4 @@
-defaults:
-    -
-        scope:
-            path: ""
-            type: "posts"
-        values:
-            author: "Mark Silvis"
-            layout: "default"
+# General Jekyll Config
+highlighter: pygments
+#url: http://marksilvis.github.io
+exclude: [CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
