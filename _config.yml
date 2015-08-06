@@ -1,4 +1,4 @@
 # General Jekyll Config
 highlighter: pygments
-#url: http://marksilvis.github.io
+url: http://marksilvis.github.io
 exclude: [CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
