@@ -7,12 +7,10 @@
 * 8/17/2011
 */
 
-nav {
-	.sidebar {
-		position: fixed;
-	}
+/*nav {
+	position: fixed;
 }
-
+*/
 #logo {
 	max-width: 150px;
 	max-height: 150px;

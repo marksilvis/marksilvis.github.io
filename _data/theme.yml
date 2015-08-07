@@ -1,7 +1,9 @@
 # Theme customization - please change from the defaults!
 
+# Color for main items
+body_color: '#cc6666'
 # Color for top bar, links, etc
-highlight_color: '#E44336'
+highlight_color: '#333333'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:

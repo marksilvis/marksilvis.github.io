@@ -156,6 +156,10 @@ nav h1, nav h2 {
   font-weight: 600;
 }
 
+.sidebar h5 {
+  color: {{ site.data.theme.highlight_color }};
+}
+
 .content {
   font: 400 16px/22px "open sans", sans-serif;
   border-left: 1px solid #DDD;
@@ -166,6 +170,9 @@ nav h1, nav h2 {
 
 .footer {
   width: 100%;
+  position: relative;
+  bottom: 0;
+  left:; 0;
 }
 
 .footer {
