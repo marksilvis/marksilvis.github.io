@@ -9,16 +9,15 @@ html, body {
 
 body {
   font-size: 16px;
-  background-color: white;
-  color: #222222;
+  background-color: 'white';
+  color: {{ site.data.theme.body_color }};
   line-height: 24px;
   margin: 0;
-  border-top: 7px solid {{ site.data.theme.highlight_color }};
+  border-top: 7px solid {{ site.data.theme.body_color }};
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #181818;
-  font-family: "open sans", sans-serif;
+  color: {{ site.data.theme.body_color }};
   font-weight: 600;
 }
 
@@ -48,17 +47,17 @@ ul {
 }
 
 a {
-  color: {{ site.data.theme.highlight_color }};
+  color: {{ site.data.theme.accent_color }};
   text-decoration: none;
 }
 
 a:hover {
-  color: {{ site.data.theme.highlight_color }};
+  color: {{ site.data.theme.accent_color }};
   text-decoration: underline;
 }
 
 a:visited {
-  color: {{ site.data.theme.highlight_color }};
+  color: {{ site.data.theme.accent_color }};
 }
 
 table {
@@ -85,14 +84,13 @@ ul.posts li {
 }
 
 ul.posts span {
-  font-family: 'Lucida Console', 'Andale Mono', monospace;
-  color: #aaa;
+  color: #888;
   padding-right: 5px;
   font-size:14px;
 }
 
 .meta {
-  color: #aaa;
+  color: #888;
   margin: 0 0 10px 0;
 }
 
@@ -145,7 +143,8 @@ nav h1, nav h2 {
 
 .sidebar {
   padding-top: 25px;
-  font-family: "open sans", sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .sidebar p {
@@ -154,18 +153,45 @@ nav h1, nav h2 {
 
 .sidebar a {
   font-weight: 600;
+  color: {{ site.data.theme.accent_color }};
 }
 
 .sidebar h5 {
-  color: {{ site.data.theme.highlight_color }};
+  color: {{ site.data.theme.body_color }};
+}
+
+#nav {
+  text-align: left;
+  margin: 35px;
+  padding-left: 15px;
+  margin-top: 0px;
+  margin-right: auto;
+}
+
+#nav ul {
+  list-style: none;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+#nav li {
+  /*position: relative;*/
+  /*float: left;*/
+  margin-bottom: 10px;
+}
+
+#nav a {
+  text-align: left;
 }
 
 .content {
-  font: 400 16px/22px "open sans", sans-serif;
+  font-size: 400 16px/22px;
   border-left: 1px solid #DDD;
   padding-left: 40px;
   padding-top: 25px;
   min-height: 400px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .footer {
@@ -188,7 +214,7 @@ nav h1, nav h2 {
 }
 
 #home h2 {
-  color: {{ site.data.theme.highlight_color }};
+  color: {{ site.data.theme.body_color }};
 }
 
 #logo, #gravatar {
@@ -205,7 +231,7 @@ nav h1, nav h2 {
 #stalker {
   display: inline-block;
   height: 18px;
-  margin-left: 5px;
+  margin-left: 35px;
 }
 
 #stalker a {
@@ -221,11 +247,10 @@ nav h1, nav h2 {
 
 #stalker a:hover {
   text-decoration: none;
-  color: {{ site.data.theme.highlight_color }};
+  color: {{ site.data.theme.accent_color }};
 }
 
 i.fa-hn {
-  font-family: "open sans", sans-serif;
   text-align: center;
   font-size: 18px !important;
   position: relative;
@@ -235,7 +260,7 @@ i.fa-hn {
 .home {
   font-size: 24px;
   float: right;
-  color: #AAA;
+  color: #888;
 }
 
 .home:hover {
