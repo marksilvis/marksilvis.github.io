@@ -3,7 +3,7 @@
 # Color for main items
 body_color: '#333333'
 # Color for links
-accent_color: '#006633'
+accent_color: '#669999'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
@@ -11,8 +11,8 @@ social:
   # bitbucket: marksilvis 
   twitter: marksilvis
   hacker_news: mrks_
+  stackoverflow: 3750550
   linkedin: marksilvis
-  # stackoverflow: 
   #stackexchange:
   #facebook: 
   #tumblr: 
@@ -29,3 +29,5 @@ google_analytics_key:
 
 # Toggle "Postings are my own" disclaimer in footer
 show_disclaimer: false
+
+
