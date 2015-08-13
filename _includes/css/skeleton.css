@@ -70,19 +70,6 @@
     .container .offset-by-fifteen               { padding-left: 900px; }
 
 
-/* #Navbar fix (desktop)
-================================================== */
-    @media only screen and (max-width: 960px) {
-        #nav {
-            margin-left: -10px;
-        }
-
-        #stalker {
-            margin-left: -5px;
-        }
-    }
-
-
 /* #Tablet (Portrait)
 ================================================== */
 

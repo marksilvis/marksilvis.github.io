@@ -1,5 +1,5 @@
 # General Jekyll Config
 highlighter: pygments
 url: http://marksilvis.github.io
-permalink: /posts/:title
+permalink: /:title
 exclude: [CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]

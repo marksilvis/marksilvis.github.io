@@ -2,17 +2,17 @@
 
 # Color for main items
 body_color: '#333333'
-# Color for links and other small details
+# Color for links
 accent_color: '#006633'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
   github: marksilvis
-  twitter: marksilvis
-  # hacker_news: mrks_
-  # stackoverflow: 3750550
-  linkedin: marksilvis
   # bitbucket: marksilvis 
+  twitter: marksilvis
+  hacker_news: mrks_
+  linkedin: marksilvis
+  # stackoverflow: 
   #stackexchange:
   #facebook: 
   #tumblr: 
