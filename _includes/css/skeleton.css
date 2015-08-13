@@ -69,12 +69,17 @@
     .container .offset-by-fourteen              { padding-left: 840px; }
     .container .offset-by-fifteen               { padding-left: 900px; }
 
-    #nav {
-        margin-left: 5px;
-    }
 
-    #stalker {
-        margin-left: 5px;
+/* #Navbar fix (desktop)
+================================================== */
+    @media only screen and (max-width: 960px) {
+        #nav {
+            margin-left: -10px;
+        }
+
+        #stalker {
+            margin-left: -5px;
+        }
     }
 
 
@@ -126,17 +131,7 @@
         .container .offset-by-thirteen              { padding-left: 624px; }
         .container .offset-by-fourteen              { padding-left: 672px; }
         .container .offset-by-fifteen               { padding-left: 720px; }
-    
-/*        #nav {
-            margin-left: 5px;
-        }
-
-        #stalker {
-            margin-left: 5px;
-        }
-*/
     }
-
 
 /*  #Mobile (Portrait)
 ================================================== */
