@@ -17,10 +17,10 @@ layout: default
 
 <div id="postnav">
   {% if page.previous.url %}
-    <a id="prevpost" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    <a id="prevpost" href="{{page.previous.url}}"><i class="fa fa-angle-left"></i> Previous</a>
   {% endif %}
   {% if page.next.url %}
-    <a id="nextpost" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    <a id="nextpost" href="{{page.next.url}}">Next <i class="fa fa-angle-right"></i></a>
   {% endif %}
 </div>
 
