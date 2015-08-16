@@ -250,6 +250,10 @@ nav h1, nav h2 {
   color: {{ site.data.theme.accent_color }};
 }
 
+#nextpost {
+  float: right;
+}
+
 i.fa-hn {
   text-align: center;
   font-size: 18px !important;
