@@ -1,8 +1,3 @@
----
-layout: post
-title: About
----
-
 <div id="home">
   ## About me
 </div>
