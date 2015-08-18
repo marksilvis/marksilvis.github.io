@@ -21,6 +21,7 @@ I don’t think starting this blog is going to make me influential or necessaril
 
 Programming as it is a large part of my life, will be the core of this blog, archiving my evolution as a programmer, shaping my opinions, proving myself a hypocrite, and sharing knowledge*. Sometimes I’ll post about personal or philosophical topics unrelated to programming.
 
+    
+    
 
-
-* Limited and unqualified
+\* Limited and unqualified
