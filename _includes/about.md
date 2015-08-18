@@ -1,6 +1,4 @@
 ---
-layout: post
-title: About
 ---
 
 ## About me
