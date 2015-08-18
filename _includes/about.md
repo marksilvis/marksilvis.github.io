@@ -1,6 +1,3 @@
----
----
-
 ## About me
 
 I’m Mark Silvis. I recently graduated college with a degree in computer science. I live in Pittsburgh with my girlfriend and two cats. My interests include programming language theory, application development, coffee, tennis, craft beer, organization, reading, philosophy, and traveling.
