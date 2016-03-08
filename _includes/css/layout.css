@@ -56,9 +56,10 @@
 	nav ul,
 	#logo { text-align: left; }
 	.sidebar {
-		margin-left: -40px;
+		margin-left: -400px;
 	}
 	.content {
+		margin-top: -240px;
 		border: 0px;
 	}
 
@@ -69,9 +70,9 @@
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	.sidebar {
+	/*.sidebar {
 		display: none;
-	}
+	}*/
 
 	h1 {
 		font-size: 28px;
@@ -86,6 +87,7 @@
 	}
 
 	.content {
+		margin-top: 20px;
 		padding-left: 5px;
 	}
 
