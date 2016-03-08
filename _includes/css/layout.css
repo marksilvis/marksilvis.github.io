@@ -18,8 +18,11 @@
 	padding-bottom: 40px;
 }
 
-.mobile {
+.mobilebar {
 	display: none;
+	padding-left: 40px;
+	border-top: 1px solid #ddd;
+	width: 103%;	
 }
 
 /* Smaller than standard 960 (devices and browsers) */
@@ -59,10 +62,15 @@
 		margin-left: -400px;
 	}
 	.content {
-		margin-top: -240px;
+		margin-top: -180px;
 		border: 0px;
 	}
-
+	.mobilebar {
+		display: block
+	}
+	#logo {
+		display: none;
+	}
 	.mobile {
 		display: block;
 	}
