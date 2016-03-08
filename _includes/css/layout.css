@@ -59,10 +59,9 @@
 	nav ul,
 	#logo { text-align: left; }
 	.sidebar {
-		margin-left: -400px;
+		display: none;
 	}
 	.content {
-		padding-top: -120px;
 		border: 0px;
 	}
 	.mobilebar {
