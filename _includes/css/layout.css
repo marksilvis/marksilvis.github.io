@@ -23,7 +23,11 @@
 }
 
 /* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) {
+@media only screen and (max-width: 970px) {
+	.content {
+		padding-right: 2px;
+		padding-left: 20px;
+	}
 	#logo {
 		font-size: 21px;
 		margin-bottom: 15px; }
@@ -35,9 +39,13 @@
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 768px) and (max-width: 970px) {
 	nav {
 		width: 160px;
+	}
+	.content {
+		padding-right: 2px;
+		padding-left: 20px;
 	}
 }
 
@@ -48,12 +56,10 @@
 	nav ul,
 	#logo { text-align: left; }
 	.sidebar {
-		display: none;
+		margin-left: -40px;
 	}
 	.content {
 		border: 0px;
-		padding-left: 0px;
-		padding-top: 0px;
 	}
 
 	.mobile {
@@ -77,6 +83,10 @@
 @media only screen and (max-width: 479px) {
 	.sidebar {
 		display: none;
+	}
+
+	.content {
+		padding-left: 5px;
 	}
 
 	h1 {
