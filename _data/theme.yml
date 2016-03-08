@@ -1,11 +1,16 @@
 # Theme customization
 
+# Personal info
+name: Mark Silvis
+email: mark@marksilvis.me
+
 # Color for main items
 body_color: '#333333'
+
 # Color for links
 accent_color: '#0066cc'
 
-# Profile links on the left sidebar, leave blank to ignore
+# Profile links on the navigation bar(s), leave blank to ignore
 social:
   twitter: marksilvis
   github: marksilvis
@@ -19,8 +24,8 @@ social:
   # gplus: 
   # gravatar: 
 
-name: Mark Silvis
-email: mark@marksilvis.me
+# Show sharing icons after post
+sharing: false
 
 # Disqus short name, leave blank to ignore
 disqus:

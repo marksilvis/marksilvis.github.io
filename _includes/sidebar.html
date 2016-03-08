@@ -16,11 +16,11 @@
     <div id="posts"> 
       <ul>
         {% for post in site.posts %}
-        {% if page.url == post.url %}
-          <li><a href="{{ post.url }}"><strong>{{ post.title }}</strong></a></li>
-        {% else %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endif %}
+          {% if page.url == post.url %}
+            <li><a href="{{ post.url }}"><strong>{{ post.title }}</strong></a></li>
+          {% else %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
     </div>

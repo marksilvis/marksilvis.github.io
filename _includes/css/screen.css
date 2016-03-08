@@ -51,12 +51,7 @@ a {
 }
 
 a:hover {
-  color: {{ site.data.theme.accent_color }};
   text-decoration: underline;
-}
-
-a:visited {
-  color: {{ site.data.theme.accent_color }};
 }
 
 table {
@@ -180,6 +175,10 @@ nav h1, nav h2 {
   padding-bottom: 15px;
 }
 
+#share {
+  font-size: 20px;
+}
+
 #mobilenav {
   border-bottom: 2px solid #ddd;
   margin-bottom: 25px;
@@ -209,8 +208,6 @@ nav h1, nav h2 {
   padding-left: 40px;
   padding-top: 25px;
   min-height: 400px;
-  /*margin-top: 5px;*/
-  /*margin-bottom: 5px;*/
 }
 
 .footer {
