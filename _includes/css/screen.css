@@ -51,7 +51,12 @@ a {
 }
 
 a:hover {
+  color: {{ site.data.theme.accent_color }};
   text-decoration: underline;
+}
+
+a:visited {
+  color: {{ site.data.theme.accent_color }};
 }
 
 table {
