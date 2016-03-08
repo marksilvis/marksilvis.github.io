@@ -3,4 +3,8 @@ layout: default
 ---
 <!-- Redirect to most recent post -->
 {% assign post = site.posts.first %}
-<META http-equiv="refresh" content="0;URL= {{ post.url }}">
+{% if post == null %}
+  <META http-equiv="refresh" content="0;URL={{site.url}}/about">
+{% else %}
+  <META http-equiv="refresh" content="0;URL={{post.url}}">
+{% endif %}

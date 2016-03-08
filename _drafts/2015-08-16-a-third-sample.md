@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Another sample
-subtitle: Sampling another blog post
+title: Another sample post with an even longer title
 categories:
 - blog
 ---
