@@ -5,7 +5,7 @@ layout: default
 {% assign post = site.posts.first %}
 
 <!-- No posts - redirect to about page -->
-{% if post == blank %}
+{% if post == null %}
   <META http-equiv="refresh" content="0;URL={{site.url}}/about">
 
 <!-- Redirect to most recent post -->
