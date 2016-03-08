@@ -11,10 +11,6 @@
   <meta name="description" content="The blog of {{ site.data.theme.name }}" />
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
 
-  <!-- <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css"> -->
-  <link rel="shortcut icon" href="/assets/favicon.ico">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.data.theme.name }}" href="{{site.url}}/atom.xml" />
-
   <link rel="stylesheet" href="/assets/css/all.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
@@ -25,21 +21,10 @@
     </div>
 
     <div class="eleven columns content">
-    <!-- <div id="name">Mark Silvis</div> -->
-      <div id="mobilenav" class="mobile">
-        <ul>
-          <li><a href="/">BLOG</a></li>
-          <li><a href="/about">ABOUT</a></li>
-        </ul>
-      </div>
       {{ content }}
-    </div>
-
-    <div class="footer">
-      {% include footer.html %}
     </div>
   </div>
 
-<!-- {% include analytics.html %} -->
+{% include analytics.html %}
 </body>
 </html>

@@ -1,34 +1,28 @@
-# Theme customization - please change from the defaults!
+# Theme customization
 
 # Color for main items
 body_color: '#333333'
 # Color for links
-#accent_color: '#669999'
-accent_color: '#339966'
+accent_color: '#0066cc'
+# accent_color: '#0099ff'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
   github: marksilvis
-  # bitbucket: marksilvis 
+  # bitbucket:  
   twitter: marksilvis
-  # hacker_news: mrks_
-  # stackoverflow: 3750550
-  linkedin: marksilvis
-  #stackexchange:
-  #facebook: 
-  #tumblr: 
-  #gplus: 
-  #gravatar: 
+  # hacker_news: 
+  # stackoverflow: 
+  # linkedin: 
+  # stackexchange:
+  # facebook: 
+  # tumblr: 
+  # gplus: 
+  # gravatar: 
 
-# "Hi, I'm _______"
 name: Mark Silvis
-email: masilvis22@gmail.com
-# tagline: "weak opinions, strongly held"
+email: mark@marksilvis.me
 
 # Google Analytics key, leave blank to ignore
-google_analytics_key: 
-
-# Toggle "Postings are my own" disclaimer in footer
-show_disclaimer: false
-
+google_analytics_key: UA-74817610-1
 

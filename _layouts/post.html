@@ -2,35 +2,19 @@
 layout: default
 ---
 
+<h1 class="title">{{ page.title }}</h1>
 <p class="meta">
   {{ page.date | date: "%B %d, %Y" }} 
 </p>
-
-<h1 class="title">{{ page.title }}</h1>
+<br/>
 
 <div id="post">
   {{ content }}
-</div>
+<!--   <br />
+  <p>Share: <a href="http://www.twitter.com/share?url={{site.url}}{{page.url}}"><i class="fa fa-twitter-square"></i></a> 
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{ page.url}}"><i class="fa fa-facebook-square"></i></a>
+            <a href="mailto:?body=Check out this article: {{site.url}}{{page.url}}"><i class="fa fa-envelope-square"></i></a>
+  </p>
+ --></div>
 
-<div id="postnav">
-  {% if page.previous.url %}
-    <a id="prevpost" href="{{page.previous.url}}"><i class="fa fa-angle-left"></i> Previous</a>
-  {% endif %}
-  {% if page.next.url %}
-    <a id="nextpost" href="{{page.next.url}}">Next <i class="fa fa-angle-right"></i></a>
-  {% endif %}
-</div>
-
-{% include disqus.html %}
-
-<!-- <div id="related">
-  <h3>Related Posts</h3>
-  <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-    <li>
-      <span>{{ post.date | date_to_string }} &raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
- -->
+<!-- {% include disqus.html %} -->

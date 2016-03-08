@@ -1,20 +1,28 @@
-<nav>
-  <!-- <h1>Hi.</h1> -->
-  <a href="/">
-    {% if site.data.theme.social.gravatar %}
-    <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
-    {% else %}
-    <img src="/assets/photo.jpg" id="logo" alt="My photo"/>
-    {% endif %}
-  </a>
-  <h2>{{ site.data.theme.name }}</h2>
-  <div id="nav">
-    <ul>
-      <li><a href="/">BLOG</a></li>
-      <li><a href="/about">ABOUT</a></li>
-    </ul>
-  </div>
-  <div id="social">
-    {% include social.html %}
+<nav id="navigation">
+  <div id="sidebar">
+    <div id="stamp">
+      <a href="/">
+        {% if site.data.theme.social.gravatar %}
+        <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
+        {% else %}
+        <img src="/assets/photo.jpg" id="logo" alt="My photo"/>
+        {% endif %}
+      </a>
+      <p>{{ site.data.theme.name }}</p>
+    </div>
+    <div id="social">
+      {% include social.html %}
+    </div>   
+    <div id="posts"> 
+      <ul>
+        {% for post in site.posts %}
+        {% if page.url == post.url %}
+          <li><a href="{{ post.url }}"><strong>{{ post.title }}</strong></a></li>
+        {% else %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </nav>

@@ -13,7 +13,6 @@ body {
   color: {{ site.data.theme.body_color }};
   line-height: 24px;
   margin: 0;
-  border-top: 7px solid {{ site.data.theme.accent_color }};
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -105,19 +104,6 @@ nav h1, nav h2 {
   text-align: center;
 }
 
-#bio {
-  margin-top: 10px;
-  margin-bottom: 15px;
-  border: dotted #ddd;
-  border-width: 1px 0;
-  padding-top: 15px;
-}
-
-#social {
-  margin-bottom: 10px;
-  font-size: 13px;
-}
-
 #post pre {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -141,47 +127,57 @@ nav h1, nav h2 {
   border: none;
 }
 
-.sidebar {
+#stamp {
+  position: float;
+  bottom: 40px;
+  display: block;
+}
+
+#stamp img {
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+#stamp p {
+  margin-bottom: 0;
+}
+
+#social {
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+#sidebar {
   padding-top: 25px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-.sidebar p {
-  font-weight: 200;
+#sites {
+  list-style-type: none;
+  display: inline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
-.sidebar a {
-  font-weight: 600;
-  color: {{ site.data.theme.accent_color }};
+#sites li {
+  display: inline;
+  text-decoration: none;
 }
 
-.sidebar h5 {
-  color: {{ site.data.theme.body_color }};
+#posts {
+  font-size: 14px;
 }
 
-#nav {
-  text-align: left;
-  margin: 35px;
-  margin-top: 25px;
-  margin-right: auto;
-  padding-left: 15px;
+#posts ul {
+  padding-top: 20px;
+  list-style-type: none;
 }
 
-#nav ul {
-  list-style: none;
+#posts li {
   margin-bottom: 0;
-  text-align: left;
-}
-
-#nav li {
-  /*position: relative;*/
-  /*float: left;*/
-  margin-bottom: 10px;
-}
-
-#nav a {
-  text-align: left;
+  padding-bottom: 15px;
 }
 
 #mobilenav {
@@ -213,8 +209,8 @@ nav h1, nav h2 {
   padding-left: 40px;
   padding-top: 25px;
   min-height: 400px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  /*margin-top: 5px;*/
+  /*margin-bottom: 5px;*/
 }
 
 .footer {
@@ -249,32 +245,6 @@ nav h1, nav h2 {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-}
-
-#stalker {
-  display: inline-block;
-  height: 18px;
-  margin-left: 35px;
-}
-
-#stalker a {
-  width: 29px;
-  overflow: hidden;
-  float: left;
-}
-
-#stalker i {
-  font-size: 28px;
-  margin-right: 5px;
-}
-
-#stalker a:hover {
-  text-decoration: none;
-  color: {{ site.data.theme.accent_color }};
-}
-
-#nextpost {
-  float: right;
 }
 
 i.fa-hn {
@@ -318,9 +288,4 @@ i.fa-hn {
   text-align: center;
   font-size: smaller;
   padding-bottom: 10px
-}
-
-sup {
-  vertical-align: super;
-  font-size: smaller;
 }

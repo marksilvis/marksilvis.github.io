@@ -8,9 +8,14 @@
 */
 
 #logo {
-	max-width: 150px;
-	max-height: 150px;
+	max-width: 96px;
+	max-height: 96px;
 	border-radius: 10px;
+}
+
+.content {
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .mobile {
@@ -24,10 +29,7 @@
 		margin-bottom: 15px; }
 	nav .button {
 		padding: 9px 20px 11px; }
-	#nav {
-		margin-left: 5px;
-	}
-	#stalker {
+	#navigation {
 		margin-left: 5px;
 	}
 }
@@ -36,14 +38,6 @@
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	nav {
 		width: 160px;
-	}
-	
-	.sidebar h2 {
-		/*font-size: 18px;*/
-	}
-
-	#bio {
-		font-size: 14px;
 	}
 }
 
