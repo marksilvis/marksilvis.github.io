@@ -4,17 +4,16 @@
 body_color: '#333333'
 # Color for links
 accent_color: '#0066cc'
-# accent_color: '#0099ff'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
+  twitter: marksilvis
   github: marksilvis
   # bitbucket:  
-  twitter: marksilvis
   # hacker_news: 
   # stackoverflow: 
-  # linkedin: 
   # stackexchange:
+  # linkedin: 
   # facebook: 
   # tumblr: 
   # gplus: 
@@ -22,6 +21,10 @@ social:
 
 name: Mark Silvis
 email: mark@marksilvis.me
+
+# Disqus short name, leave blank to ignore
+disqus:
+  short_name: 
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key: UA-74817610-1
