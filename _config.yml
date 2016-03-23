@@ -1,5 +1,4 @@
 # Jekyll Config
-# highlighter: rouge
-url: http://marksilvis.me
+url: https://marksilvis.me
 permalink: /:title
 exclude: [CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
