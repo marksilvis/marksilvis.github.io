@@ -1,4 +1,4 @@
 # Jekyll Config
-url: https://marksilvis.me
+url: http://marksilvis.me
 permalink: /:title
 exclude: [CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
