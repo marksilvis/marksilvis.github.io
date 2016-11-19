@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '>= 2.1.2'
-
 gem 'jekyll'
+gem 'activesupport', '4.2.7.1'
 gem 'github-pages'
 gem 'kramdown'
 gem 'jekyll-redirect-from'
