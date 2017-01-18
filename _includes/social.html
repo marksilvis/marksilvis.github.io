@@ -1,32 +1,41 @@
 <div>
   <ul id="sites">
     <!-- About page -->
-    <li><a title="about" href="/about">about</a></li>
+    <!--<li><a title="about" href="/about">about</a></li>-->
+
+    <!-- Now page -->
+    <!--<li><a title="now" href="/now">now</a></li>-->
+
     <!-- Twitter -->
     {% if site.data.theme.social.twitter %}
-      <li>&#45;</li>
+    <!--<li>&#45;</li>-->
       <li><a title="{{ site.data.theme.name }} on Twitter" target="_blank" href="https://twitter.com/{{ site.data.theme.social.twitter }}">twitter</a></li>
     {% endif %}
+
     <!-- GitHub -->
     {% if site.data.theme.social.github %}
       <li>&#45;</li>
       <li><a title="{{ site.data.theme.name }} on GitHub" target="_blank" href="https://github.com/{{ site.data.theme.social.github }}">github</a></li>
     {% endif %}
+
     <!-- Bitbucket -->
     {% if site.data.theme.social.bitbucket %}
       <li>&#45;</li>
       <li><a title="{{ site.data.theme.name }} on Bitbucket" target="_blank" href="https://bitbucket.com/{{ site.data.theme.social.bitbucket }}">bitbucket</a></li>
     {% endif %}
+
     <!-- Hacker News -->
     {% if site.data.theme.social.hacker_news %}
       <li>&#45;</li>
       <li><a title="{{ site.data.theme.name }} on Github" target="_blank" href="https://news.ycombinator.com/user?id={{ site.data.theme.social.hacker_news }}">hackernews</a></li>
     {% endif %}
+
     <!-- Stack Overflow -->
      {% if site.data.theme.social.stackoverflow %}
        <li>&#45;</li>
        <li><a title="{{ site.data.theme.name }} on Stack Overflow" href="http://stackoverflow.com/users/{{site.data.theme.social.stackoverflow }}">stackoverflow</a></li>
     {% endif %}
+
     <!-- Stack Exchange -->
      {% if site.data.theme.social.stackexchange %}
        <li>&#45;</li>
