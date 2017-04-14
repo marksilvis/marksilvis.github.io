@@ -17,14 +17,17 @@ Ea nec rebum facete laoreet, usu audire nostrum contentiones ne, vis utamur dele
 
 {% highlight python %}
 
+```python
 class Theme:
+    # comment
     """Example class"""
-    
     greeting = "Hello, world"
 
-    def __init__(self):
-    
-    def greet(self):
-      return greeting
+    def init(self):
+
+    def greet(self, g):
+        for i in range
+        return greeting
+```
 
 {% endhighlight %}
