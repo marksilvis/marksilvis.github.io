@@ -4,7 +4,7 @@
 }
 
 html, body {
-  height: 98%;
+  height: 100%;
   overflow-x: hidden;
 }
 
@@ -173,6 +173,7 @@ nav h1, nav h2 {
 
 #posts {
   font-size: 14px;
+  margin-bottom: 4em;
 }
 
 #posts ul {
@@ -193,10 +194,6 @@ nav h1, nav h2 {
   height: 100%;
 }
 
-#mobilebar {
-  position: absolute;
-  overflow: hidden;
-}
 
 #mobilenav {
   position: static;
