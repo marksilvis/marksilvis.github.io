@@ -5,6 +5,7 @@
 
 html, body {
   height: 98%;
+  overflow-x: hidden;
 }
 
 body {
@@ -192,7 +193,13 @@ nav h1, nav h2 {
   height: 100%;
 }
 
+#mobilebar {
+  position: absolute;
+  overflow: hidden;
+}
+
 #mobilenav {
+  position: static;
   border-bottom: 2px solid #ddd;
   margin-bottom: 25px;
 }
