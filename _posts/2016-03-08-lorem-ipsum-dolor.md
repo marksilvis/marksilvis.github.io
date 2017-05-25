@@ -16,8 +16,6 @@ No omnis nostrud accusamus quo. Duo eu nibh nominati erroribus, at iusto adolesc
 Ea nec rebum facete laoreet, usu audire nostrum contentiones ne, vis utamur delenit ex. Iudico possit labitur qui id. Ei per meis appareat similique, his at errem semper, qui ea esse altera docendi. Quando primis ancillae ius ne, an sed quidam fabulas voluptua. Falli prompta aliquam vix ne, commodo aperiam apeirian ea mel, at pri dolore scripta accusamus. Sea et error everti tritani.
 
 {% highlight python %}
-
-```python
 class Theme:
     # comment
     """Example class"""
@@ -28,6 +26,4 @@ class Theme:
     def greet(self, g):
         for i in range
         return greeting
-```
-
 {% endhighlight %}
