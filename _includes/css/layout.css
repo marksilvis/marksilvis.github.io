@@ -21,14 +21,24 @@
 .mobilebar {
 	display: none;
 	padding-left: 40px;
-	border-top: 1px solid #ddd;
 	width: 103%;	
 }
 
+@media only screen and (min-width: 1200px) {
+	#post {
+		margin-right: -200px;
+	}
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1200px) {
+	#post {
+		margin-right: -100px;
+	}
+}
+
 /* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 1100px) {
 	.content {
-		padding-right: 2px;
 		padding-left: 20px;
 	}
 	#logo {
@@ -39,16 +49,23 @@
 	#navigation {
 		margin-left: 5px;
 	}
+	#post {
+		margin-right: 0;
+	}
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 970px) {
+@media only screen and (min-width: 768px) and (max-width: 980px) {
 	nav {
 		width: 160px;
 	}
 	.content {
-		padding-right: 2px;
-		padding-left: 20px;
+		padding-right: 100%;
+		padding-left: 10px;
+		width: 100%;
+	}
+	.container {
+		width: 100%;
 	}
 }
 
@@ -61,17 +78,34 @@
 	.sidebar {
 		display: none;
 	}
+	.container {
+		margin-left: 1.5em;
+		width: 100%;
+	}
 	.content {
 		border: 0px;
+		padding-right: 100%;
+		padding-top: 8rem;
+		width: 100%;
+		overflow-x: hidden;
+	}
+	#post {
+		padding-bottom: 8rem;
 	}
 	.mobilebar {
-		display: block
+		display: block;
+		position: absolute;
+		background: #fdfdfd;
+		border-bottom: 1px solid #ddd;
 	}
 	#logo {
 		display: none;
 	}
 	.mobile {
 		display: block;
+	}
+	#posts {
+		display: none;
 	}
 }
 
@@ -95,6 +129,9 @@
 		margin-top: 20px;
 		padding-left: 5px;
 	}
+	#post {
+		margin-right: -3rem;
+	}
 	h1 {
 		font-size: 24px;
 		line-height: 32px;
@@ -105,3 +142,46 @@
 	}
 }
 
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 414px) {
+	.sidebar {
+		display: none;
+	}
+	.content {
+		margin-top: 20px;
+		padding-left: 5px;
+	}
+	#post {
+		margin-right: -0.8rem;
+	}
+	h1 {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	h2 {
+		font-size: 22px;
+		line-height: 24px;
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 320px) {
+	.sidebar {
+		display: none;
+	}
+	.content {
+		margin-top: 20px;
+		padding-left: 5px;
+	}
+	#post {
+		margin-right: 2rem;
+	}
+	h1 {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	h2 {
+		font-size: 22px;
+		line-height: 24px;
+	}
+}
