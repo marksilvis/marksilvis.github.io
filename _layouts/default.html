@@ -15,12 +15,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
+  <div class="eleven columns mobilebar">
+        {% include sidebar.html %}
+  </div>
   <div class="container">
     <div class="four columns sidebar">
       {% include sidebar.html %}
-    </div>
-    <div class="eleven columns mobilebar">
-        {% include sidebar.html %}
     </div>
     <div class="eleven columns content">
       {{ content }}
