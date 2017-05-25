@@ -19,6 +19,7 @@
 }
 
 .mobilebar {
+	position: absolute;
 	display: none;
 	padding-right: 100%;
 	padding-left: 40px;
