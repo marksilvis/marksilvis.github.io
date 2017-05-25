@@ -97,6 +97,7 @@
 		position: absolute;
 		background: #fdfdfd;
 		border-bottom: 1px solid #ddd;
+		z-index: 999;
 	}
 	#logo {
 		display: none;
