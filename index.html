@@ -1,14 +1,39 @@
 ---
 layout: default
+title: Mark Silvis
 ---
 
-{% assign post = site.posts.first %}
+<!-- {% assign post = site.posts.first %} -->
 
 <!-- No posts - redirect to about page -->
+<!--
 {% if post == null %}
   <META http-equiv="refresh" content="0;URL={{site.url}}/about">
+  -->
 
 <!-- Redirect to most recent post -->
+<!--
 {% else %}
   <META http-equiv="refresh" content="0;URL={{site.url}}{{post.url}}">
 {% endif %}
+-->
+
+<!-- {% include_relative about/index.md %} -->
+<h1>Introduction</h1>
+<p>I'm a software developer and graduate student at the University of Pittsburgh. I have a wide range of interests across the field and throughout the technology stack. I am currently learning more about machine learning, distributed systems, and mobile application development.</p>
+
+<h1>Current Projects</h1>
+
+<!-- CCD -->
+<h2>CCD Annotations</h2>
+<p>An annotations management system for the <a href="https://www.ccd.pitt.edu" target="_blank">Center for Causal Discovery</a>. I am working to provide annotations tools to <a href="https://www.ccd.pitt.edu/tools" target="_blank">Causal Web</a> and <a href="http://cytoscape.org/" target="_blank">Cytoscape</a>.</p>
+
+<!-- PittGrub -->
+<h2><a href="https://pittgrub.com" target="_blank">PittGrub</a></h2>
+<p>A mobile app with the goal of reducing food waste by feeding leftovers to hungry college students. We are building a recommender system to connect students to the food events they're most interested in attending.</p>
+
+<!-- OXR -->
+<h2><a href="https://hex.pm/packages/oxr" target="_blank">OXR</a></h2>
+<p>A package for <a href="https://elixir-lang.org" target="_blank">Elixir</a> that provides a thin wrapper around <a href="https://openexchangerates.org/" target="_blank">Open Exchange Rates</a>' currency data API.</p>
+
+<br><br><br><br><br>

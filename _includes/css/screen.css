@@ -5,7 +5,7 @@
 
 html, body {
   height: 100%;
-  overflow-x: hidden;  
+  overflow-x: hidden;
 }
 
 body {
@@ -147,6 +147,11 @@ nav h1, nav h2 {
   margin-bottom: 0;
 }
 
+#stamp p > a {
+  color: {{site.data.theme.body_color}};
+  text-decoration: none;
+}
+
 #social {
   margin-bottom: 20px;
   font-size: 13px;
@@ -227,7 +232,7 @@ nav h1, nav h2 {
 }
 
 #posts {
-  padding-bottom: 2em;  
+  padding-bottom: 2em;
 }
 
 .content {

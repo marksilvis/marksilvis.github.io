@@ -8,12 +8,12 @@
         <img src="/assets/photo.jpg" id="logo" alt="My photo"/>
         {% endif %}
       </a>
-      <p>{{ site.data.theme.name }}</p>
+      <p><a href="{{site.url}}">{{ site.data.theme.name }}</a></p>
     </div>
     <div id="social">
       {% include social.html %}
-    </div>   
-    <div id="posts"> 
+    </div>
+    <div id="posts">
       <ul>
         {% for post in site.posts %}
           {% if page.url == post.url %}
