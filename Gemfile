@@ -1,5 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'github-pages'
-gem 'kramdown'
-gem 'jekyll-redirect-from'
+gem "github-pages", "~> 228", group: :jekyll_plugins
